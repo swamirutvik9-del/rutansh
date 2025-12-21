@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<h1>Articles</h1>
+
+<p style="margin-bottom: 3rem;">
+A growing archive of long-form thinking.<br>
+Written slowly. Read patiently.
+</p>
+
+{{ range .Pages }}
+  <article style="margin-bottom: 2.4rem;">
+    <h2 style="margin-bottom: 0.4rem;">
+      <a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">
+        {{ .Title }}
+      </a>
+    </h2>
+
+    {{ with .Params.summary }}
+      <p style="color:#999; font-size:0.95rem;">
+        {{ . }}
+      </p>
+    {{ end }}
+  </article>
+{{ end }}
+
+{{ end }}

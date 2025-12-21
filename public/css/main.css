@@ -1,0 +1,137 @@
+/* =========================
+   RUTANSH — FINAL EDITORIAL CSS
+   Calm • Professional • Long-term
+   ========================= */
+
+/* ---------- Color System ---------- */
+:root {
+  --bg-main: #0f1b1f;          /* Deep calm background */
+  --text-primary: #eaeaea;     /* Main readable text */
+  --text-secondary: #b8b8b8;   /* Paragraph text */
+  --text-muted: #8f8f8f;       /* Meta / subtle text */
+  --accent: #c9a24d;           /* Rare emphasis (not loud) */
+}
+
+/* ---------- Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- Body ---------- */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+  position: fixed;
+  top: 32px;
+  right: 32px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--text-muted);
+}
+
+nav a:hover {
+  color: var(--text-primary);
+}
+
+/* ---------- Main Content Area ---------- */
+main {
+  max-width: 720px;
+  margin: 120px auto 80px auto;
+  padding: 0 24px;
+}
+
+/* ---------- Headings ---------- */
+h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.2rem;
+  color: var(--text-primary);
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 2.4rem;
+  margin-bottom: 0.8rem;
+  color: var(--text-primary);
+}
+
+/* ---------- Paragraphs ---------- */
+p {
+  font-size: 1.05rem;
+  margin-bottom: 1.6rem;
+  color: var(--text-secondary);
+}
+
+/* ---------- Strong / Emphasis ---------- */
+strong {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* ---------- Article Layout ---------- */
+article header {
+  margin-bottom: 3rem;
+}
+
+article header p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+/* ---------- Article Content ---------- */
+.article-content p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  margin-bottom: 1.7rem;
+  color: var(--text-secondary);
+}
+
+.article-content ul {
+  margin-left: 1.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.article-content li {
+  margin-bottom: 0.6rem;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}

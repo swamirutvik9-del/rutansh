@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Rutansh</title>
+    <link>http://localhost:1313/articles/</link>
+    <description>Recent content in Articles on Rutansh</description>
+    <generator>Hugo</generator>
+    <language>en-in</language>
+    <copyright>Rutansh</copyright>
+    <lastBuildDate>Sat, 18 Jan 2025 10:00:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Rutansh</title>
+      <link>http://localhost:1313/articles/why-rutansh-exists/</link>
+      <pubDate>Sat, 18 Jan 2025 10:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/articles/why-rutansh-exists/</guid>
+      <description>Why long-term thinking, responsibility, and systems matter more than opinions.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Site.Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <nav>
+    <a href="/">Rutansh</a>
+    <a href="/articles/">Articles</a>
+    <a href="/about/">About</a>
+  </nav>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+  <p>© Rutansh · A thinking space</p>
+</footer>
+</body>
+</html>
