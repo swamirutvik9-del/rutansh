@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Rutansh</title>
-    <link>https://rutansh.in/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Rutansh</description>
     <generator>Hugo</generator>
     <language>en-in</language>
     <copyright>Rutansh</copyright>
-    <atom:link href="https://rutansh.in/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
