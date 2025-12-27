@@ -3,7 +3,6 @@ title: "Why This Space Writes Carefully"
 summary: "On slowing down thought, resisting noise, and choosing responsibility over reaction."
 lang: en
 date: 2025-12-20
-weight: 1
 draft: false
 ---
 

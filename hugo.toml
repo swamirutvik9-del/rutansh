@@ -1,11 +1,11 @@
-
+baseURL = "https://rutansh.in/"
 languageCode = "en-in"
 title = "Rutansh"
 theme = "bearblog"
-publishDir = "docs"
-author = "Rutansh"
-copyright = "Rutansh"
+
+enableRobotsTXT = true
 
 [params]
-  description = "A weekly archive of thought, responsibility, and national conscience."
-  hideMadeWithLine = true
+description = "A weekly archive of thought, responsibility, and national conscience."
+hideMadeWithLine = true
+
