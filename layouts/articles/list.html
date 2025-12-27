@@ -7,7 +7,7 @@ A growing archive of long-form thinking.<br>
 Written slowly. Read patiently.
 </p>
 
-{{ range .Pages }}
+{{ range .Pages.ByDate.Reverse }}
   <article style="margin-bottom: 2.4rem;">
     <h2 style="margin-bottom: 0.4rem;">
       <a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">
