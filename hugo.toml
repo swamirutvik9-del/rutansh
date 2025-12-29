@@ -1,11 +1,11 @@
-[params]
- googleAnalytics = "G-C39PCJ09B4"
+googleAnalytics = "G-C39PCJ09B4"
 baseURL = "https://rutansh.in/"
 languageCode = "en-in"
 title = "Rutansh"
 theme = "bearblog"
 
 enableRobotsTXT = true
+googleAnalytics = "G-C39PCJ09B4"
 
 [params]
 description = "A weekly archive of thought, responsibility, and national conscience."
