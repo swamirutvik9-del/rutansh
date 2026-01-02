@@ -1,28 +1,35 @@
 {{ define "main" }}
 
-<h1>Rutansh</h1>
+<section class="home-hero">
+  <h1 class="site-title">Rutansh</h1>
 
-<p><strong>This is Rutansh.</strong></p>
+  <p class="tagline">
+    Documentation of thought.<br />
+    Read slowly. Return weekly.
+  </p>
+</section>
 
-<p>
-Not a news portal.<br>
-Not a political party.<br>
-Not an ideology.
-</p>
+<section class="latest">
+  <h2>Latest Writing</h2>
 
-<p>
-Rutansh is a long-term thinking space — to understand <strong>Bharat</strong>,
-responsibility, systems, and the cost of short-term decisions.
-</p>
+  {{ range first 5 (where .Site.RegularPages "Type" "articles") }}
+    <article class="entry">
+      <h3 class="entry-title">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h3>
 
-<p>
-Every article here is written calmly, analytically, and without allegiance to
-any party or religion.
-</p>
+      {{ with .Params.summary }}
+        <p class="summary">{{ . }}</p>
+      {{ end }}
 
-<p>
-This is documentation of thought.<br>
-Read slowly. Return weekly.
-</p>
+      <time class="date">{{ .Date.Format "02 Jan 2006" }}</time>
+    </article>
+  {{ end }}
+</section>
+
+<footer class="home-footer">
+  <p>Documentation of thought. Written slowly.</p>
+</footer>
 
 {{ end }}
+

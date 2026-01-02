@@ -4,9 +4,9 @@ title = "Rutansh"
 theme = "bearblog"
 
 enableRobotsTXT = true
-googleAnalytics = "G-C39PCJ09B4"
 
 [params]
+googleAnalytics = "G-C39PCJ09B4"
 description = "A weekly archive of thought, responsibility, and national conscience."
 hideMadeWithLine = true
 
