@@ -9,4 +9,5 @@ enableRobotsTXT = true
 googleAnalytics = "G-C39PCJ09B4"
 description = "A weekly archive of thought, responsibility, and national conscience."
 hideMadeWithLine = true
+logo ="/images/rutansh-logo.svg"
 
