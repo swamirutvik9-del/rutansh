@@ -18,9 +18,16 @@
 /* Base */
 body{font-family:Georgia,"Times New Roman",serif;background:var(--bg-main);color:var(--text-primary);line-height:1.75;-webkit-font-smoothing:antialiased}
 
-nav{position:fixed;top:32px;right:32px;font-size:.9rem;opacity:.9}
+nav{position:fixed;top:32px;right:32px;font-size:.9rem;opacity:.95;transition:transform .25s ease, opacity .2s ease;z-index:1000}
+nav.nav-hidden{transform:translateY(-120%)}
 nav a{margin-left:20px;text-decoration:none;color:var(--text-muted)}
 nav a:hover{color:var(--text-primary)}
+
+/* Make nav less obtrusive on small screens and provide a background */
+@media (max-width: 768px){
+  nav{left:0;right:0;top:0;padding:10px 16px;background:rgba(15,27,31,0.9);display:flex;justify-content:center}
+  nav a{margin:0 12px}
+}
 
 main{max-width:720px;margin:120px auto 80px;padding:0 24px}
 

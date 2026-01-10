@@ -18,15 +18,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="/css/main.css">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Rutansh",
-  "url": "https://rutansh.in",
-  "logo": "https://rutansh.in/images/rutansh-logo.svg"
-}
-</script>
+  
+  <meta property="og:image" content="http://localhost:1313/images/rutansh-logo.svg.jpeg" />
+  <meta name="twitter:image" content="http://localhost:1313/images/rutansh-logo.svg.jpeg" />
+  <link rel="image_src" href="http://localhost:1313/images/rutansh-logo.svg.jpeg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Rutansh",
+    "url": "http:\/\/localhost:1313\/",
+    "logo": "http:\/\/localhost:1313\/images\/rutansh-logo.svg.jpeg"
+  }
+  </script>
 
 </head>
 
@@ -47,6 +51,20 @@ A growing archive of long-form thinking.<br>
 Written slowly. Read patiently.
 </p>
 
+
+  <article style="margin-bottom: 2.4rem;">
+    <h2 style="margin-bottom: 0.4rem;">
+      <a href="/articles/when-responsibility-becomes-optional/" style="text-decoration: none; color: inherit;">
+        When Responsibility Becomes Optional
+      </a>
+    </h2>
+
+    
+      <p style="color:#999; font-size:0.95rem;">
+        How responsibility fades quietly — and what weakens when it does.
+      </p>
+    
+  </article>
 
   <article style="margin-bottom: 2.4rem;">
     <h2 style="margin-bottom: 0.4rem;">
@@ -110,5 +128,23 @@ Written slowly. Read patiently.
   <footer>
   <p>© Rutansh · A thinking space</p>
 </footer>
+
+  
+  <script>
+  (function(){
+    var lastScroll = 0;
+    var nav = document.querySelector('nav');
+    if(!nav) return;
+    window.addEventListener('scroll', function(){
+      var current = window.pageYOffset || document.documentElement.scrollTop;
+      if (current > lastScroll && current > 50){
+        nav.classList.add('nav-hidden');
+      } else {
+        nav.classList.remove('nav-hidden');
+      }
+      lastScroll = current <= 0 ? 0 : current;
+    }, {passive:true});
+  })();
+  </script>
 </body>
 </html>
