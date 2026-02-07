@@ -3,10 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/articles/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/when-rules-exist-but-justice-doesnt/</loc>
+    <lastmod>2026-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/the-cost-of-saying--its-not-my-responsibility/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/articles/the-work-that-matters-but-pays-nothing/</loc>
     <lastmod>2026-01-24T00:00:00+00:00</lastmod>
