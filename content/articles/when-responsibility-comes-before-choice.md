@@ -1,6 +1,6 @@
 ---
 title: "When Responsibility Comes Before Choice"
-date: 2026-02-13
+date: 2026-02-14
 summary: "On inherited expectations, structural pressure, and the kind of responsibility that arrives before freedom."
 draft: false
 ---
