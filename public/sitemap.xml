@@ -3,10 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/articles/</loc>
-    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/mahatma-phule/</loc>
+    <lastmod>2026-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/the-difference-between-movement-and-progress/</loc>
+    <lastmod>2026-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/why-people-avoid-difficult-conversation/</loc>
+    <lastmod>2026-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/why-attention-is-not-the-same-as-impact/</loc>
+    <lastmod>2026-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/articles/why-competetence-is-quite/</loc>
     <lastmod>2026-03-14T00:00:00+00:00</lastmod>
