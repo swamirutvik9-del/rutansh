@@ -1,3 +1,5 @@
+# NOTE: rutansh.in is deployed by GitHub Pages (.github/workflows), not Netlify.
+# This file is only used if the site is ever moved back to Netlify.
 [build]
   command = "hugo --gc --minify --cleanDestinationDir"
   publish = "public"
