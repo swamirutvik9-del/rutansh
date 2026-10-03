@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.Language.LanguageCode | default "en" }}">
 <head>
   {{ if .Site.Params.googleAnalytics }}
   <!-- Google tag (gtag.js) -->
@@ -14,24 +14,12 @@
   {{ end }}
 
   <meta charset="utf-8">
-  <title>{{ .Site.Title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ partial "seo.html" . }}
 
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
   <link rel="icon" type="image/jpeg" href="/images/rutansh-logo.svg.jpeg">
-  <!-- Social image / logo for search and previews -->
-  <meta property="og:image" content="{{ "images/rutansh-logo.svg.jpeg" | absURL }}" />
-  <meta name="twitter:image" content="{{ "images/rutansh-logo.svg.jpeg" | absURL }}" />
-  <link rel="image_src" href="{{ "images/rutansh-logo.svg.jpeg" | absURL }}" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "{{ .Site.Title }}",
-    "url": "{{ .Site.BaseURL }}",
-    "logo": "{{ "images/rutansh-logo.svg.jpeg" | absURL }}"
-  }
-  </script>
+  {{ with site.Home.OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
 
 </head>
 

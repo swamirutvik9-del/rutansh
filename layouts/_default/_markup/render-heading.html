@@ -1,0 +1,9 @@
+{{- /* Articles are written with ### section headings; publish them as h2 so the
+       outline is h1 > h2, while keeping the original h3 look via .h-section. */ -}}
+{{- $level := .Level -}}
+{{- $class := "" -}}
+{{- if and (eq .Page.Type "articles") (eq .Level 3) -}}
+  {{- $level = 2 -}}
+  {{- $class = "h-section" -}}
+{{- end -}}
+<h{{ $level }} id="{{ .Anchor }}"{{ with $class }} class="{{ . }}"{{ end }}>{{ .Text }}</h{{ $level }}>

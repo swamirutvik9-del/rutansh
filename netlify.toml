@@ -4,3 +4,41 @@
 
 [build.environment]
   HUGO_VERSION = "0.152.2"
+
+# The old /posts/ copy of "Why Rutansh" was a duplicate of the article.
+[[redirects]]
+  from = "/posts/why-rutansh/"
+  to = "/articles/why-rutansh-exists/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/*"
+  to = "/articles/"
+  status = 301
+
+# Tag and category pages were empty and have been removed.
+[[redirects]]
+  from = "/tags/*"
+  to = "/articles/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/*"
+  to = "/articles/"
+  status = 301
+
+[[redirects]]
+  from = "/blog"
+  to = "/articles/"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

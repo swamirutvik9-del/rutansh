@@ -70,3 +70,19 @@ footer{text-align:center;margin-bottom:40px;font-size:.8rem;color:var(--text-mut
 .date{font-size:.85rem;color:#999}
 
 .home-footer{max-width:720px;margin:5rem auto 3rem;text-align:center;font-size:.9rem;color:#888}
+
+/* SEO: article section headings are h2 but keep the original h3 look */
+.article-content h2.h-section{font-size:1.2rem;font-weight:500;margin:2.4rem 0 .8rem;color:var(--text-primary)}
+
+/* Related articles and FAQ (uses the existing colour variables) */
+.article-extra{margin-top:4rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,.08)}
+.article-extra h2{font-size:1.2rem;font-weight:500;margin:0 0 1.2rem;color:var(--text-primary)}
+.related-list{list-style:none}
+.related-list li{margin-bottom:1.2rem}
+.related-list a{color:var(--text-primary);text-decoration:none;border-bottom:1px solid transparent}
+.related-list a:hover{border-bottom-color:currentColor;color:var(--accent)}
+.related-list p{font-size:.95rem;margin:.3rem 0 0;color:var(--text-muted)}
+.faq-item{margin-bottom:1.6rem}
+.faq-item h3{font-size:1.05rem;margin:0 0 .4rem}
+.faq-item p{margin-bottom:0}
+.article-back{margin-top:2.5rem;font-size:.95rem}

@@ -1,0 +1,260 @@
+# Hand-picked related articles shown at the end of each article.
+# Key = article URL slug, value = up to 4 related article slugs.
+
+when-responsibility-becomes-optional:
+  - the-cost-of-saying--its-not-my-responsibility
+  - why-convenience-is-making-us-less-responsible
+  - when-everyone-has-a-voice-but-nobody-takes-responsibility
+  - when-responsibility-comes-before-choice
+
+are-you-being-given-an-opportunity-or-being-used-as-marketing:
+  - the-difference-between-being-used-and-gaining-experience
+  - why-young-people-need-responsibility-not-just-opportunities
+  - when-progress-benefits-everyone-except-the-person-doing-the-work
+  - the-difference-between-influence-and-attention
+
+how-systems-fails-quitly:
+  - the-danger-of-becoming-comfortable-with-small-failures
+  - why-good-people-stay-silent-when-systems-go-wrong
+  - why-every-system-eventually-reflects-the-people-inside-it
+  - when-institutions-forget-the-people-they-exist-for
+
+mahatma-phule:
+  - when-education-teaches-answers-but-not-judgment
+  - the-work-that-matters-but-pays-nothing
+  - when-rules-exist-but-justice-doesnt
+  - what-kind-of-society-are-we-quietly-building
+
+the-cost-of-saying--its-not-my-responsibility:
+  - when-responsibility-becomes-optional
+  - when-following-the-rules-becomes-an-excuse
+  - when-everyone-has-a-voice-but-nobody-takes-responsibility
+  - why-good-people-stay-silent-when-systems-go-wrong
+
+the-cost-of-having-no-long-term-vision:
+  - why-short-term-thinking-creates-long-term-problems
+  - the-difference-between-movement-and-progress
+  - why-young-people-feel-busy-but-directionless
+  - the-difference-between-being-busy-and-being-useful
+
+the-danger-of-becoming-comfortable-with-small-failures:
+  - how-systems-fails-quitly
+  - the-problem-with-always-choosing-what-is-easy
+  - what-kind-of-society-are-we-quietly-building
+  - why-short-term-thinking-creates-long-term-problems
+
+the-difference-between-authority-and-creadibility:
+  - why-trust-takes-years-to-build-and-minutes-to-lose
+  - when-leadership-becomes-about-being-seen
+  - the-difference-between-influence-and-attention
+  - the-difference-between-confidence-and-ego
+
+the-difference-between-being-busy-and-being-useful:
+  - the-difference-between-movement-and-progress
+  - why-young-people-feel-busy-but-directionless
+  - the-cost-of-having-no-long-term-vision
+  - why-attention-is-not-the-same-as-impact
+
+the-difference-between-being-educated-and-being-trained:
+  - when-education-teaches-answers-but-not-judgment
+  - when-we-stop-thinking-someone-else-thinks-for-us
+  - why-young-people-need-responsibility-not-just-opportunities
+  - when-following-the-rules-becomes-an-excuse
+
+the-difference-between-being-used-and-gaining-experience:
+  - are-you-being-given-an-opportunity-or-being-used-as-marketing
+  - when-progress-benefits-everyone-except-the-person-doing-the-work
+  - why-young-people-need-responsibility-not-just-opportunities
+  - when-ambition-stops-being-about-growth
+
+the-difference-between-confidence-and-ego:
+  - why-competetence-is-quite
+  - when-leadership-becomes-about-being-seen
+  - the-difference-between-authority-and-creadibility
+  - when-ambition-stops-being-about-growth
+
+the-difference-between-influence-and-attention:
+  - why-attention-is-not-the-same-as-impact
+  - when-leadership-becomes-about-being-seen
+  - the-difference-between-authority-and-creadibility
+  - when-everyone-has-a-voice-but-nobody-takes-responsibility
+
+the-difference-between-movement-and-progress:
+  - the-difference-between-being-busy-and-being-useful
+  - the-cost-of-having-no-long-term-vision
+  - why-young-people-feel-busy-but-directionless
+  - why-short-term-thinking-creates-long-term-problems
+
+the-hidden-cost-of-depending-on-others:
+  - why-convenience-is-making-us-less-responsible
+  - when-we-stop-thinking-someone-else-thinks-for-us
+  - the-myth-of-self-made
+  - the-problem-with-always-choosing-what-is-easy
+
+the-myth-of-self-made:
+  - the-work-that-matters-but-pays-nothing
+  - when-progress-benefits-everyone-except-the-person-doing-the-work
+  - why-we-respect-success-more-than-character
+  - the-hidden-cost-of-depending-on-others
+
+the-problem-with-always-choosing-what-is-easy:
+  - why-convenience-is-making-us-less-responsible
+  - the-danger-of-becoming-comfortable-with-small-failures
+  - why-short-term-thinking-creates-long-term-problems
+  - why-people-avoid-difficult-conversation
+
+the-work-that-matters-but-pays-nothing:
+  - when-progress-benefits-everyone-except-the-person-doing-the-work
+  - the-myth-of-self-made
+  - why-competetence-is-quite
+  - why-we-respect-success-more-than-character
+
+what-kind-of-society-are-we-quietly-building:
+  - why-every-system-eventually-reflects-the-people-inside-it
+  - the-danger-of-becoming-comfortable-with-small-failures
+  - why-we-respect-success-more-than-character
+  - why-short-term-thinking-creates-long-term-problems
+
+when-ambition-stops-being-about-growth:
+  - the-difference-between-confidence-and-ego
+  - why-we-respect-success-more-than-character
+  - the-difference-between-being-used-and-gaining-experience
+  - why-young-people-feel-busy-but-directionless
+
+when-education-teaches-answers-but-not-judgment:
+  - the-difference-between-being-educated-and-being-trained
+  - when-we-stop-thinking-someone-else-thinks-for-us
+  - why-young-people-need-responsibility-not-just-opportunities
+  - mahatma-phule
+
+when-everyone-has-a-voice-but-nobody-takes-responsibility:
+  - the-cost-of-saying--its-not-my-responsibility
+  - the-difference-between-influence-and-attention
+  - why-attention-is-not-the-same-as-impact
+  - when-responsibility-becomes-optional
+
+when-following-the-rules-becomes-an-excuse:
+  - when-rules-exist-but-justice-doesnt
+  - when-institutions-forget-the-people-they-exist-for
+  - the-cost-of-saying--its-not-my-responsibility
+  - why-every-system-eventually-reflects-the-people-inside-it
+
+when-institutions-forget-the-people-they-exist-for:
+  - when-following-the-rules-becomes-an-excuse
+  - when-rules-exist-but-justice-doesnt
+  - why-every-system-eventually-reflects-the-people-inside-it
+  - how-systems-fails-quitly
+
+when-leadership-becomes-about-being-seen:
+  - the-difference-between-authority-and-creadibility
+  - the-difference-between-influence-and-attention
+  - when-progress-benefits-everyone-except-the-person-doing-the-work
+  - the-difference-between-confidence-and-ego
+
+when-progress-benefits-everyone-except-the-person-doing-the-work:
+  - the-work-that-matters-but-pays-nothing
+  - the-difference-between-being-used-and-gaining-experience
+  - when-leadership-becomes-about-being-seen
+  - the-myth-of-self-made
+
+when-responsibility-comes-before-choice:
+  - why-young-people-need-responsibility-not-just-opportunities
+  - when-responsibility-becomes-optional
+  - why-young-people-feel-busy-but-directionless
+  - the-cost-of-saying--its-not-my-responsibility
+
+when-rules-exist-but-justice-doesnt:
+  - when-following-the-rules-becomes-an-excuse
+  - when-institutions-forget-the-people-they-exist-for
+  - why-good-people-stay-silent-when-systems-go-wrong
+  - why-every-system-eventually-reflects-the-people-inside-it
+
+when-we-stop-thinking-someone-else-thinks-for-us:
+  - when-education-teaches-answers-but-not-judgment
+  - the-hidden-cost-of-depending-on-others
+  - the-difference-between-being-educated-and-being-trained
+  - why-silence-often-wins
+
+why-attention-is-not-the-same-as-impact:
+  - the-difference-between-influence-and-attention
+  - why-competetence-is-quite
+  - when-leadership-becomes-about-being-seen
+  - the-difference-between-being-busy-and-being-useful
+
+why-competetence-is-quite:
+  - the-difference-between-confidence-and-ego
+  - why-attention-is-not-the-same-as-impact
+  - the-work-that-matters-but-pays-nothing
+  - why-we-respect-success-more-than-character
+
+why-convenience-is-making-us-less-responsible:
+  - the-problem-with-always-choosing-what-is-easy
+  - the-hidden-cost-of-depending-on-others
+  - when-responsibility-becomes-optional
+  - why-short-term-thinking-creates-long-term-problems
+
+why-every-system-eventually-reflects-the-people-inside-it:
+  - what-kind-of-society-are-we-quietly-building
+  - how-systems-fails-quitly
+  - when-institutions-forget-the-people-they-exist-for
+  - why-good-people-stay-silent-when-systems-go-wrong
+
+why-good-people-stay-silent-when-systems-go-wrong:
+  - why-silence-often-wins
+  - why-people-avoid-difficult-conversation
+  - how-systems-fails-quitly
+  - when-rules-exist-but-justice-doesnt
+
+why-people-avoid-difficult-conversation:
+  - why-silence-often-wins
+  - why-good-people-stay-silent-when-systems-go-wrong
+  - the-problem-with-always-choosing-what-is-easy
+  - why-trust-takes-years-to-build-and-minutes-to-lose
+
+why-rutansh-exists:
+  - why-this-space-writes-carefully
+  - why-short-term-thinking-creates-long-term-problems
+  - what-kind-of-society-are-we-quietly-building
+  - when-responsibility-becomes-optional
+
+why-short-term-thinking-creates-long-term-problems:
+  - the-cost-of-having-no-long-term-vision
+  - why-convenience-is-making-us-less-responsible
+  - the-danger-of-becoming-comfortable-with-small-failures
+  - the-problem-with-always-choosing-what-is-easy
+
+why-silence-often-wins:
+  - why-good-people-stay-silent-when-systems-go-wrong
+  - why-people-avoid-difficult-conversation
+  - when-we-stop-thinking-someone-else-thinks-for-us
+  - when-rules-exist-but-justice-doesnt
+
+why-this-space-writes-carefully:
+  - why-rutansh-exists
+  - when-we-stop-thinking-someone-else-thinks-for-us
+  - the-difference-between-influence-and-attention
+  - why-attention-is-not-the-same-as-impact
+
+why-trust-takes-years-to-build-and-minutes-to-lose:
+  - the-difference-between-authority-and-creadibility
+  - why-every-system-eventually-reflects-the-people-inside-it
+  - why-people-avoid-difficult-conversation
+  - when-institutions-forget-the-people-they-exist-for
+
+why-we-respect-success-more-than-character:
+  - the-myth-of-self-made
+  - why-competetence-is-quite
+  - when-ambition-stops-being-about-growth
+  - what-kind-of-society-are-we-quietly-building
+
+why-young-people-feel-busy-but-directionless:
+  - the-difference-between-being-busy-and-being-useful
+  - the-cost-of-having-no-long-term-vision
+  - why-young-people-need-responsibility-not-just-opportunities
+  - when-ambition-stops-being-about-growth
+
+why-young-people-need-responsibility-not-just-opportunities:
+  - when-responsibility-comes-before-choice
+  - the-difference-between-being-used-and-gaining-experience
+  - why-young-people-feel-busy-but-directionless
+  - the-difference-between-being-educated-and-being-trained

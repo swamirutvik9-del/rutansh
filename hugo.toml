@@ -5,9 +5,23 @@ theme = "bearblog"
 
 enableRobotsTXT = true
 
+# Tags and categories are not used; their empty pages only add thin URLs to the sitemap.
+disableKinds = ["taxonomy", "term"]
+
+[sitemap]
+changeFreq = "weekly"
+priority = 0.5
+
 [params]
 googleAnalytics = "G-C39PCJ09B4"
 description = "A weekly archive of thought, responsibility, and national conscience."
+homeTitle = "Rutansh – Essays on Responsibility, Systems and Society"
+homeDescription = "Rutansh is a weekly archive of long-form essays on responsibility, education, leadership, institutions and society in Bharat. Read slowly. Return weekly."
 hideMadeWithLine = true
 logo ="/images/rutansh-logo.svg"
+logoImage = "images/rutansh-logo.svg.jpeg"
+socialImage = "images/rutansh-logo.svg.jpeg"
 
+[params.author]
+name = "Swami Rutvik"
+url = "/about/"
