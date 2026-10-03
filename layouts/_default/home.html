@@ -22,9 +22,11 @@
         <p class="summary">{{ . }}</p>
       {{ end }}
 
-      <time class="date">{{ .Date.Format "02 Jan 2006" }}</time>
+      <p class="date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time><span class="meta-sep">·</span>{{ .ReadingTime }} min read</p>
     </article>
   {{ end }}
+
+  <p class="all-articles"><a href="{{ "articles/" | relURL }}">All articles →</a></p>
 </section>
 
 <footer class="home-footer">

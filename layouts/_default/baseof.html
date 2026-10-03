@@ -17,7 +17,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ partial "seo.html" . }}
 
-  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}?v={{ os.ReadFile "static/css/main.css" | md5 | strings.Truncate 8 "" }}">
   <link rel="icon" type="image/jpeg" href="/images/rutansh-logo.svg.jpeg">
   {{ with site.Home.OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
 
